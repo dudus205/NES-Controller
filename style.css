@@ -3,6 +3,10 @@ body{
     margin: auto;
     padding: 0;
 }
+.all{
+    margin: 0 auto;
+    padding: 0;
+}
 .background{
     display: block;
     position: relative;
@@ -11,13 +15,13 @@ body{
     border-radius: 40px;
     background: #040404;
     padding-top: 20px;
-    margin: 50px auto auto auto;
+    margin: 0 auto auto auto;
 }
 .cable{
     height: 150px;
     width: 30px;
     background-color: #040404;
-    margin: 0 0 -50px 520px;
+    margin: 0 auto auto auto;
     box-shadow: 0 0 2px 3px #3b3b3b;
 }
 .controller{
