@@ -6,24 +6,31 @@ body{
 .background{
     display: block;
     position: relative;
-    height: 500px;
+    height: 400px;
     width: 820px;
     border-radius: 40px;
     background: #040404;
     padding-top: 20px;
     margin: 50px auto auto auto;
 }
+.cable{
+    height: 150px;
+    width: 30px;
+    background-color: #040404;
+    margin: 0 0 -50px 520px;
+    box-shadow: 0 0 2px 3px #3b3b3b;
+}
 .controller{
     position: relative;
     margin:auto;
-    height: 480px;
+    height: 380px;
     width: 780px;
     background-color: #b2b2b2;
     border-radius: 25px;
 }
 .front{
     width: 720px;
-    height: 370px;
+    height: 270px;
     position: relative;
     margin:auto;
     background: #040404;
@@ -32,14 +39,14 @@ body{
 }
 .dpad{
     display: inline-block;
-    height: 370px;
+    height: 400px;
 }
 .hor-dpad{
     width: 200px;
     height: 50px;
     background: #6d6d6d;
     border-radius: 20px;
-    margin: 180px 25px 0;
+    margin: 100px 25px 0;
     box-shadow: 0 8px 0 0 #b2b2b2;
 
 }
@@ -59,15 +66,15 @@ body{
 }
 .strip{
     background: #b2b2b2;
-    height: 60px;
+    height: 45px;
     width: 220px;
     border-radius: 20px;
-    margin: 20px 0;
+    margin: 15px 0;
     color: #d80006;
 }
 .top-strip{
-    margin-top: -24px;
-    height: 25px;
+    margin-top: -55px;
+    height: 26px;
     width: 220px;
     background: #efefef;
     position: relative;
@@ -92,15 +99,15 @@ body{
     box-shadow: 0 5px 0 1px #6d6d6d;
 }
 .bottom-strip{
-    margin-top: -26.5px;
-    height: 25px;
+    margin-top: -42px;
+    height: 27px;
     width: 220px;
     background: #efefef;
     position: relative;
 }
 .button-holder{
     display: inline-block;
-    height: 370px;
+    height: 200px;
     width: 190px;
 }
 .button-ab{
@@ -117,6 +124,6 @@ body{
     height: 80px;
     background-color: #dedede;
     border-radius: 5px;
-    margin: 0 5px 75px 5px;
+    margin: 0 5px 160px 5px;
     box-shadow: 0 0 0 3px #efefef;
 }
