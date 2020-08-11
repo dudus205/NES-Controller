@@ -1,2 +1,2 @@
 ## See it here:
-https://nes-controller.web.app/
+https://nes-controller.firebaseapp.com/
