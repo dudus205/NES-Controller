@@ -1,0 +1,122 @@
+body{
+    background-color: #d80006;
+    margin: auto;
+    padding: 0;
+}
+.background{
+    display: block;
+    position: relative;
+    height: 500px;
+    width: 820px;
+    border-radius: 40px;
+    background: #040404;
+    padding-top: 20px;
+    margin: 50px auto auto auto;
+}
+.controller{
+    position: relative;
+    margin:auto;
+    height: 480px;
+    width: 780px;
+    background-color: #b2b2b2;
+    border-radius: 25px;
+}
+.front{
+    width: 720px;
+    height: 370px;
+    position: relative;
+    margin:auto;
+    background: #040404;
+    border-radius: 25px;
+    border: 30px solid #efefef;
+}
+.dpad{
+    display: inline-block;
+    height: 370px;
+}
+.hor-dpad{
+    width: 200px;
+    height: 50px;
+    background: #6d6d6d;
+    border-radius: 20px;
+    margin: 180px 25px 0;
+    box-shadow: 0 8px 0 0 #b2b2b2;
+
+}
+.ver-dpad{
+    width: 50px;
+    height: 200px;
+    background: #6d6d6d;
+    border-radius: 20px;
+    margin: -125px 100px 0;
+    box-shadow: 0 8px 0 0 #b2b2b2;
+}
+.pattern{
+    display: inline-block;
+    height: 370px;
+    width: 220px;
+    margin: 0 15px;
+}
+.strip{
+    background: #b2b2b2;
+    height: 60px;
+    width: 220px;
+    border-radius: 20px;
+    margin: 20px 0;
+    color: #d80006;
+}
+.top-strip{
+    margin-top: -24px;
+    height: 25px;
+    width: 220px;
+    background: #efefef;
+    position: relative;
+}
+.controls{
+    width: 180px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #c5c5c5;
+    border: 5px solid #dfdfdf;
+    margin-left: 15px;
+}
+.button-control{
+    padding: 0;
+    background-color: #040404;
+    border-radius: 20px;
+    height: 30px;
+    width: 65px;
+    float: left;
+    display: block;
+    margin: 20px 10px 0 12px;
+    box-shadow: 0 5px 0 1px #6d6d6d;
+}
+.bottom-strip{
+    margin-top: -26.5px;
+    height: 25px;
+    width: 220px;
+    background: #efefef;
+    position: relative;
+}
+.button-holder{
+    display: inline-block;
+    height: 370px;
+    width: 190px;
+}
+.button-ab{
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #f60006;
+    box-shadow: 0 5px 0 0 #a90006;
+    margin: 10px;
+ }
+.button-ab-background{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background-color: #dedede;
+    border-radius: 5px;
+    margin: 0 5px 75px 5px;
+    box-shadow: 0 0 0 3px #efefef;
+}
